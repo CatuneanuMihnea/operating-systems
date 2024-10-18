@@ -23,7 +23,7 @@ char *os_strcpy(char *dest, const char *src)
 	return dest;
 }
 
-/* TODO 25: Implement os_strcat(). */
+/* TODO : Implement os_strcat(). */
 char *os_strcat(char *dest, const char *src)
 {
     char *rdest = dest;

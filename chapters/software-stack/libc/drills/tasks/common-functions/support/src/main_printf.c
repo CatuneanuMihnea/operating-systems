@@ -32,7 +32,7 @@ void _putchar(char character)
 
 int main(void)
 {
-	/* TODO 5: Replace printf() with sprintf() and write(). */
+	/* TODO : Replace printf() with sprintf() and write(). */
 	sprintf(out_buffer, "[before] src is at %p, len is %lu, content: \"%s\"\n", src, os_strlen(src), src);
 	write(1, out_buffer, strlen(out_buffer));
 
@@ -43,7 +43,7 @@ int main(void)
 	printf("copying src to dest\n");
 	os_strcpy(dest, src);
 
-	/* TODO 5: Replace printf() with sprintf() and write(). */
+	/* TODO : Replace printf() with sprintf() and write(). */
 	sprintf(out_buffer, "[after] src is at %p, len is %lu, content: \"%s\"\n", src, os_strlen(src), src);
 	write(1, out_buffer, strlen(out_buffer));
 

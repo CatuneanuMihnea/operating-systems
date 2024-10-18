@@ -6,7 +6,7 @@
 unsigned long os_strlen(const char *s);
 char *os_strcpy(char *dest, const char *src);
 
-/* TODO 1: Declare strcat(). */
+/* TODO : Declare strcat(). */
 char *os_strcat(char *dest, const char *src);
 
 #endif

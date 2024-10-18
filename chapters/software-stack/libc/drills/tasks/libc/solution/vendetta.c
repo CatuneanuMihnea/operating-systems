@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	/* TODO 12: Use standard C library functions.
+	/* TODO : Use standard C library functions.
 	 * Be as creative as you can.
 	 */
 	int fd;
 	FILE *f;
 
-	fd = open("a.txt", O_RDWR | O_CREAT, 0644);
+	fd = open("test.txt", O_RDWR | O_CREAT, 0644);
 	close(fd);
 
-	f = fopen("a.txt", "w");
+	f = fopen("test.txt", "w");
 	fclose(f);
 
 	printf("sin(0): %f, sin(PI/2): %f\n", sin(0), sin(M_PI/2));
