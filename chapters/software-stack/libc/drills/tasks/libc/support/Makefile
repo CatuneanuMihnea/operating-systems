@@ -16,8 +16,4 @@ memory: memory.o
 vendetta: vendetta.o
 
 clean:
-	-rm -f hello hello.o
-	-rm -f main_printf main_printf.o
-	-rm -f main_string main_string.o
-	-rm -f memory memory.o
-	-rm -f vendetta vendetta.o
+	-rm -f hello main_printf main_string memory vendetta *.o
